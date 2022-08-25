@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.svg" alt="logo" />
+      <nav>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+        <a class="login" href="#">Login</a>
+        <button id="sign-up-btn">Sign Up</button>
+      </nav>
+      <i id="hamburger-menu"><img src="images/hamburger.svg" alt="Hamburger Menu"></i>
+    </header>
+    <main>
+      <section>
+        <h1>More than just shorter links</h1>
+        <p>
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <button class="get-started">Get Started</button>
+      </section>
+      <img src="images/illustration-working.svg" alt="illustration" />
+    </main>
+    
+    <section class="url-short">
+      <input
+        type="url"
+        name="url"
+        id="url"
+        placeholder="Shorten a link here..."
+        pattern="https://.*"
+      />
+      <button id="submit-btn" >Shorten It!</button>
+      <small></small>
+    </section>
+    <div class="generated-url" data-visible = "false"></div>
+    <div class="container">
+    <section class="adv-stats">
+      <h2>Advanced Statistics</h2>
+      <p>
+        Track how your links are performing across the web with our advanced
+        statistics dashboard.
+      </p>
+    </section>
+    <section class="cards">
+      <article class="first-card">
+        <i
+          ><img
+            src="images/icon-brand-recognition.svg"
+            alt="brand recognition icon"
+        /></i>
+        <h3>Brand Recognition</h3>
+        <p>
+          Boost your brand recognition with each click. Generic links don’t mean
+          a thing. Branded links help instil confidence in your content.
+        </p>
+      </article>
+      <div class="space"></div>
+      <article class="second-card">
+        <i
+          ><img
+            src="images/icon-detailed-records.svg"
+            alt="detailed records icon"
+        /></i>
+        <h3>Detailed Records</h3>
+        <p>
+          Gain insights into who is clicking your links. Knowing when and where
+          people engage with your content helps inform better decisions.
+        </p>
+      </article>
+      <div class="space"></div>
+      <article class="third-card">
+        <i
+          ><img
+            src="images/icon-fully-customizable.svg"
+            alt="fully customizable icon"
+        /></i>
+        <h3>Fully Customizable</h3>
+        <p>
+          Improve brand awareness and content discoverability through
+          customizable links, supercharging audience engagement.
+        </p>
+      </article>
+    </section>
+  </div>
+
+    <section class="last-section">
+      <h2>Boost your links today</h2>
+      <button type="button" class="get-started">Get Started</button>
+    </section>
+
+    <footer>
+      <img src="images/logo2.svg" alt="logo" />
+      <div class="features">
+        <h3>Features</h3>
+        <a href="#">Link Shortening</a>
+        <a href="#">Branded Links</a>
+        <a href="#">Analytics</a>
+      </div>
+      <div class="resources">
+        <h3>Resources</h3>
+        <a href="#">Blog</a>
+        <a href="#">Developers</a>
+        <a href="#">Support</a>
+      </div>
+      <div class="company">
+        <h3>Company</h3>
+        <a href="#">About</a>
+        <a href="#">Our Team</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="socials">
+        <i><a href="https://www.facebook.com/"><img src="images/icon-facebook.svg" alt="facebook-icon" /></a></i>
+        <i><a href="https://www.twitter.com/"><img src="images/icon-twitter.svg" alt="twitter icon" /></a></i>
+        <i><a href="https://www.pinterest.com/"><img src="images/icon-pinterest.svg" alt="pinterest icon" /></a></i>
+        <i><a href="https://www.instagram.com/"><img src="images/icon-instagram.svg" alt="instagram icon" /></a></i>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
