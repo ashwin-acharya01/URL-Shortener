@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Uploading image.png…]
-[![Uploading image.png…]
+![](![Uploading image.png…])
+![](![Uploading image.png…])
 
 ### Links
 
