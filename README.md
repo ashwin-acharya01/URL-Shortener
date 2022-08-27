@@ -27,8 +27,12 @@ Users should be able to:
   - The `input` field is empty
 
 ### Screenshot
+- Desktop Design
 ![image](https://user-images.githubusercontent.com/87590123/186560831-b7de018a-38f4-4085-bb03-3f3373b21ad0.png)
-![image](https://user-images.githubusercontent.com/87590123/186560622-9d58d007-6a77-4f65-b037-f2b3f8aab21b.png)
+- Mobile Design
+<p align = "center">
+<img src="https://user-images.githubusercontent.com/87590123/186560622-9d58d007-6a77-4f65-b037-f2b3f8aab21b.png" width="400">
+</p>
 
 ### Links
 
